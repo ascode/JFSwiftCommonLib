@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'JFSwiftCommonLib_Example', :exclusive => true do
+  pod 'JFSwiftCommonLib', :path => '../'
+end
+
+target 'JFSwiftCommonLib_Tests', :exclusive => true do
+  pod 'JFSwiftCommonLib', :path => '../'
+
+  pod 'Quick', '~> 0.8.0'
+  pod 'Nimble', '3.0.0'
+  pod 'FBSnapshotTestCase'
+  pod 'Nimble-Snapshots'
+end
