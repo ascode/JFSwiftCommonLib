@@ -111,8 +111,6 @@
 		E6E7B15FAD6C56681511813DB2666478 /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469EEA828792C10E022D4BDE6B3CF9F5 /* AssertionRecorder.swift */; };
 		EDD91D0CC316AC322E1607D3749F1C0A /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = E1957A6F490F75CF4F5E65AE6F95B60D /* UIImage+Snapshot.m */; };
 		EE75BFF7CEB96127A821936D107A0183 /* QCKDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0CE398ED47A90A49FD1D48ED4788C3 /* QCKDSL.m */; };
-		EEE080491C88B40A00AF508B /* BaiduRESTASR.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE080431C88B40A00AF508B /* BaiduRESTASR.swift */; };
-		EEE0804A1C88B40A00AF508B /* BaiduRESTTTS.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE080441C88B40A00AF508B /* BaiduRESTTTS.swift */; };
 		EEE0804B1C88B40A00AF508B /* DataAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE080451C88B40A00AF508B /* DataAdapter.swift */; };
 		EEE0804C1C88B40A00AF508B /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE080461C88B40A00AF508B /* DateHelper.swift */; };
 		EEE0804D1C88B40A00AF508B /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE080471C88B40A00AF508B /* Result.swift */; };
@@ -337,8 +335,6 @@
 		E90473C7447B312C9C0AD27EE990A0CB /* Nimble-Snapshots-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-Snapshots-prefix.pch"; sourceTree = "<group>"; };
 		EAD96117C39A7B5100135D5FCBDEBAFE /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		ED5EE1A5F8498089AE6A6821454DFD55 /* Pods-JFSwiftCommonLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JFSwiftCommonLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		EEE080431C88B40A00AF508B /* BaiduRESTASR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaiduRESTASR.swift; sourceTree = "<group>"; };
-		EEE080441C88B40A00AF508B /* BaiduRESTTTS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaiduRESTTTS.swift; sourceTree = "<group>"; };
 		EEE080451C88B40A00AF508B /* DataAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataAdapter.swift; sourceTree = "<group>"; };
 		EEE080461C88B40A00AF508B /* DateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
 		EEE080471C88B40A00AF508B /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
@@ -603,8 +599,6 @@
 		89F248FDD07B33D8EC10D0003572CFF2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				EEE080431C88B40A00AF508B /* BaiduRESTASR.swift */,
-				EEE080441C88B40A00AF508B /* BaiduRESTTTS.swift */,
 				EEE080451C88B40A00AF508B /* DataAdapter.swift */,
 				EEE080461C88B40A00AF508B /* DateHelper.swift */,
 				EEE080471C88B40A00AF508B /* Result.swift */,
@@ -1053,9 +1047,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEE080491C88B40A00AF508B /* BaiduRESTASR.swift in Sources */,
 				EEE0804D1C88B40A00AF508B /* Result.swift in Sources */,
-				EEE0804A1C88B40A00AF508B /* BaiduRESTTTS.swift in Sources */,
 				CC2BD0A04199B280AD93F459968CAFC2 /* FBSnapshotTestCase-dummy.m in Sources */,
 				35848D70EAC9237246BDF63457729694 /* FBSnapshotTestCase.m in Sources */,
 				5D14695A69EC4A8DF7488D0FC59C105C /* FBSnapshotTestCasePlatform.m in Sources */,
