@@ -1,0 +1,25 @@
+{
+  "name": "JFSwiftCommonLib",
+  "version": "0.1.0",
+  "summary": "A short description of JFSwiftCommonLib.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/JFSwiftCommonLib",
+  "license": "MIT",
+  "authors": {
+    "arthurkiing": "ascode@msn.cn"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/JFSwiftCommonLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "JFSwiftCommonLib": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

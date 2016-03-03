@@ -1,0 +1,6 @@
+framework module JFSwiftCommonLib {
+  umbrella header "JFSwiftCommonLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
