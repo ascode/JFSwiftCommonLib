@@ -9,12 +9,12 @@
 import UIKit
 
 /// 这是我定义的一个通用结果类型
-class Result: NSObject {
-    var _excuteResult : Bool!
-    var _resultData : NSObject!
-    var _resultMsg : String!
+public class Result: NSObject {
+    public var _excuteResult : Bool!
+    public var _resultData : NSObject!
+    public var _resultMsg : String!
     
-    override init() {
+    public override init() {
         super.init()
         
     }

@@ -8,10 +8,10 @@
 
 import UIKit
 
-/// 这个类用来存储系统类一些文本的定义
-class Text: NSObject {
+/// 这个类用来存储设备信息
+public class DeviceInfo: NSObject {
 
-    enum ClientType {
+    public enum ClientType {
         case ios
         case android
         case ie
@@ -20,10 +20,10 @@ class Text: NSObject {
     }
     
     /// 获取设备语言
-    static let CurrentLanguage = NSLocale.preferredLanguages()[0]
+    public static let CurrentLanguage = NSLocale.preferredLanguages()[0]
     
     /// 获取设备的自然语言
-    static func getCurrentLanguage() -> String{
+    public static func getCurrentLanguage() -> String{
         switch CurrentLanguage{
         case "zh-cn":
             return "English"

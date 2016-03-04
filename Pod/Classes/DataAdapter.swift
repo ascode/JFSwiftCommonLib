@@ -9,8 +9,8 @@
 import UIKit
 
 /// 这个累类用来处理存储的数据模型到内存或者展示界面的数据模型的相互转化，比如数据分组，一位数组转变成二维数组
-class DataAdapter: NSObject {
-    static func TransLinearArrayGroupedToTwoDdimensionalArrayByMedia(linearArray : NSArray) -> [NSMutableArray]{
+public class DataAdapter: NSObject {
+    public static func TransLinearArrayGroupedToTwoDdimensionalArrayByMedia(linearArray : NSArray) -> [NSMutableArray]{
         /// 这个变量是处理后的二位数组变量，最终按照media字段将数据进行分组
         var resultJsonData = [NSMutableArray]()
         for (var i = 0 ; i < linearArray.count ; i++ ){
@@ -36,7 +36,7 @@ class DataAdapter: NSObject {
         return resultJsonData
     }
     
-    static func TransTwoDdimensionalArrayToLinearArray(twoDdimensionalArray : [NSArray]) -> NSArray{
+    public static func TransTwoDdimensionalArrayToLinearArray(twoDdimensionalArray : [NSArray]) -> NSArray{
         let resultJsonData = NSMutableArray()
         for(var i = 0 ; i < twoDdimensionalArray.count ; i++){
             for(var j = 0 ; j < twoDdimensionalArray[i].count ; j++){

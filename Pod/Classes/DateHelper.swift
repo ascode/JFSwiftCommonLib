@@ -8,10 +8,10 @@
 
 import UIKit
 
-class DateHelper: NSObject {
+public class DateHelper: NSObject {
     
     
-    func timeStampString(timeStamp: Double!) -> String {
+    public func timeStampString(timeStamp: Double!) -> String {
         let newDate = NSDate(timeIntervalSince1970:timeStamp)
         let formatter = NSDateFormatter()
         formatter.dateFormat = "dd.MM.YYYY HH:mm:ss.SSS"
