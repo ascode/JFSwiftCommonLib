@@ -16,7 +16,7 @@ public class CoreDataHelper: NSObject {
     public init(initContextCoredata : NSManagedObjectContext) {
         self.contextCoredata = initContextCoredata
     }
-
+    
     /// 根据指定的实体的指定id判断是否存在数据
     public func isExistsIDInCoreData(id : String , entityName : String) -> Bool{
         let f = NSFetchRequest(entityName: entityName)

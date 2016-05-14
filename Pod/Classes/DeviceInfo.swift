@@ -10,7 +10,7 @@ import UIKit
 
 /// 这个类用来存储设备信息
 public class DeviceInfo: NSObject {
-
+    
     public enum ClientType {
         case ios
         case android
@@ -47,5 +47,5 @@ public class DeviceInfo: NSObject {
     }
     
     
-
+    
 }

@@ -17,6 +17,7 @@ public class DataAdapter: NSObject {
             var hasSameMedia : Bool = false
             for(var j = 0 ; j < resultJsonData.count ; j++ ){
                 //print("------\(linearArray.objectAtIndex(i).valueForKey("media")!)")
+                //print("------\(linearArray.objectAtIndex(i).valueForKey("commerce_purpose"))")
                 //print(resultJsonData[j][0])
                 if(resultJsonData[j].count != 0 && (linearArray.objectAtIndex(i).valueForKey("media")! as! String) == (resultJsonData[j][0].valueForKey("media") as! String)){
                     hasSameMedia = true
@@ -45,5 +46,5 @@ public class DataAdapter: NSObject {
         }
         return resultJsonData
     }
-
+    
 }
